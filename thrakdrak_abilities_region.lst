@@ -1,0 +1,20 @@
+
+# Ability Name                  Bonus Ability Pool
+CATEGORY=Internal|Default.MOD   BONUS:ABILITYPOOL|Region of Origin|1|TYPE=Background
+
+###Block: Regional Affinities
+# Ability Name		Product Identity?	Category of Ability	Type		Visible		Description						Template								Source Page
+Dagrae			NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:City at the Center of the World	TEMPLATE:Regional Affinity (Dagrae)
+Dagrae (Amberhorst)			NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:City at the Center of the World	TEMPLATE:Regional Affinity (Amberhorst)
+Dagrae (Bellton)			NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:City at the Center of the World	TEMPLATE:Regional Affinity (Bellton)
+Dagrae (Deermouth)			NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:City at the Center of the World	TEMPLATE:Regional Affinity (Deermouth)
+Dagrae (Farhold)			NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:City at the Center of the World	TEMPLATE:Regional Affinity (Farhold)
+Dagrae (Haburh)			NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:City at the Center of the World	TEMPLATE:Regional Affinity (Haburh)
+Dagrae (Midhurst)			NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:City at the Center of the World	TEMPLATE:Regional Affinity (Midhurst)
+Dagrae (Still Falls)			NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:City at the Center of the World	TEMPLATE:Regional Affinity (Still Falls)
+Dagrae (Westshire)			NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:City at the Center of the World	TEMPLATE:Regional Affinity (Westshire)
+Dagrae (Eldham)			NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:City at the Center of the World	TEMPLATE:Regional Affinity (Eldham)
+
+# Ability Name					Unique Key					Product Identity?			Category of Ability			Type					Visible		Required Ability									Multiple Requirements																																						Required Race				Required Region			Var. Min. Value								Define																	Description																																																																																																Stackable?	Multiple?	Choose																																			Selections	Template							Ability																																																																																																																															Bonus to skill												Modify VAR				Class Skill					Source Page		Aspects
+Haburh Miner					Key:Trait ~ Haburh Miner								Category: Special Ability	Type:Trait.RegionalTrait							PREMULT:1,[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RegionalTrait],[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Haburh Miner]																		PREREGION:Dagrae (Haburh)																													DESC: You have toiled in the mines of Haburh providing you with a +2 on Knowledge Geography and advantages on Survival check to avoid getting lost in a dungeon or mine.
+Haburh Smith					Key:Trait ~ Haburh Smith								Category: Special Ability	Type:Trait.RegionalTrait							PREMULT:1,[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RegionalTrait],[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Haburh Smith]																		PREREGION:Dagrae (Haburh)																													DESC: You have toiled in smithies granting you a +2 on craft weapon and craft smith. In addition you get a +2 on appraise checks if the item is made from metal.

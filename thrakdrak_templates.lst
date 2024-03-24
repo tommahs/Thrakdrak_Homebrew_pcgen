@@ -1,0 +1,21 @@
+###Block: Human Ethnicities
+# Template Name			Visible	Source Page		Auto Language		Subrace
+Human Ethnicity (Dagrae)	VISIBLE:NO	SOURCEPAGE:p.12	AUTO:LANG|Dagraenian
+
+###Block: Regional Affinities
+# Template Name					Unique Key				Visible	Source Page		Bonus Languages					Region					Race Subtype		Type
+Regional Affinity (Dagrae)								VISIBLE:NO	LANGBONUS:Dagraenian			REGION:Dagrae	SUBREGION:Dagrae
+Regional Affinity (Amberhorst)								VISIBLE:NO	LANGBONUS:Dagraenian			REGION:Dagrae	SUBREGION:Amberhorst
+Regional Affinity (Bellton)								VISIBLE:NO	LANGBONUS:Dagraenian			REGION:Dagrae	SUBREGION:Bellton
+Regional Affinity (Deermouth)								VISIBLE:NO	LANGBONUS:Dagraenian			REGION:Dagrae	SUBREGION:Deermouth
+Regional Affinity (Farhold)								VISIBLE:NO	LANGBONUS:Dagraenian			REGION:Dagrae	SUBREGION:Farhold
+Regional Affinity (Haburh)								VISIBLE:NO	LANGBONUS:Dagraenian			REGION:Dagrae	SUBREGION:Haburh
+Regional Affinity (Midhurst)								VISIBLE:NO	LANGBONUS:Dagraenian			REGION:Dagrae	SUBREGION:Midhurst
+Regional Affinity (Still Falls)								VISIBLE:NO	LANGBONUS:Dagraenian			REGION:Dagrae	SUBREGION:Still Falls
+Regional Affinity (Westshire)								VISIBLE:NO	LANGBONUS:Dagraenian			REGION:Dagrae	SUBREGION:Westshire
+Regional Affinity (Eldham)								VISIBLE:NO	LANGBONUS:Dagraenian			REGION:Dagrae	SUBREGION:Eldham
+
+
+###Block: Language
+#Race Bonus Language ~ Dagraenian								VISIBLE:NO																																					DESC:City of Assassins																																					TEMPLATE:Regional Affinity (Daggermark)																																			SOURCEPAGE:p.8
+#REGION:The River Kingdoms	SUBREGION:Daggermark

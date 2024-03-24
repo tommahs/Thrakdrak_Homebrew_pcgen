@@ -1,0 +1,20 @@
+###
+#
+# version 1.0
+# Author: Tom van Hamersveld
+# Contact: Tommahs.van.hamersveld@gmail.com
+###
+
+
+# Deity Name	Product Identity?	Domains													Description of Deity/Title					FACT			FACTSET						Deity Weapon				Align		Source Page		GROUP
+#Erastil		NAMEISPI:YES	DOMAINS:Animal,Community,Good,Law,Plant|PREALIGN:LG,LN,NG					DESC:God of farming, hunting, trade, family					FACTSET:Pantheon|Pathfinder Chronicles	DEITYWEAP:Longbow				ALIGN:LG	SOURCEPAGE:p.45
+#Erastil		NAMEISPI:YES	DOMAINS:Animal,Community,Good,Law,Plant|PREALIGN:LG,LN,NG				DESC:God of family, farming, hunting, trade	FACT:Title|Old Deadeye	FACT:Symbol|Bow and arrow	FACTSET:Animal|Stag	FACTSET:Colors|Brown|Green	FACTSET:Pantheon|Pathfinder Chronicles	DEITYWEAP:Longbow	
+
+Irledus			NAMEISPI:YES	DOMAINS:Destruction,Strength,Water,Weather,Rage Subdomain,Ferocity Subdomain,Ice Subdomain,Storms Subdomain|PREALIGN:CG,CN,CE									FACT:Title|Beast of the Cold							FACT:Symbol|Two crossed Battleaxes			FACTSET:Animal|Warcat	FACTSET:Colors|White|Glacial Blue	DESC: The God of strength and storms is known for both her blood-boiling ferocity as her severe cold storm.	FACTSET:Pantheon|Thrakdrak	DEITYWEAP:BattleAxe	ALIGN:CN
+#Kugacred		NAMEISPI:YES	DOMAINS:|PREALIGN:TN																																			FACT:Title|												FACT:Symbol|								FACTSET:Animal|			FACTSET:Colors|						DESC: The God of strength and storms is known for both her blood-boiling ferocity as her severe cold storm.	FACTSET:Pantheon|Thrakdrak	DEITYWEAP:BattleAxe	ALIGN:CN
+Tizzayss		NAMEISPI:YES	DOMAINS:Plant,Healing,Scalykind,Animal,Thorns Subdomain,Leshy Subdomain,Medicine Subdomain,Dragon Subdomain,Fur Subdomain|PREALIGN:CG,CN,CE,TN					FACT:Title|The Lady of the Forest,Master of Endurance	FACT:Symbol|Cacti leaf with red fruit		FACTSET:Animal|Deer		FACTSET:Colors|Green				DESC: The God of the forest is known for her love of nature and obstructing those who do not abide by the rules of nature. 	FACTSET:Pantheon|Thrakdrak	DEITYWEAP:Bow and Arrow	ALIGN:CN
+Tondrys			NAMEISPI:YES	DOMAINS:Sun,Law,Trickery,Thirst Subdomain,Slavery Subdomain,Deception Subdomain|PREALIGN:LG,LN,TN,LE															FACT:Title|The Mistress of Law 							FACT:Symbol|Whip in the desert				FACTSET:Animal|Lizard	FACTSET:Colors|Blue					DESC: The bringer of light & law to even the most deserted places. Many believe that the Tondrys is responsible for creating the Sun.	FACTSET:Pantheon|Thrakdrak	DEITYWEAP:Whip	ALIGN:LN
+Zymmyr			NAMEISPI:YES	DOMAINS:Fire,Destruction,Law,Ash Subdomain,Smoke Subdomain,Rage Subdomain,Catastrophe Subdomain,Inevitable Subdomain,Judgement Subdomain|PREALIGN:LG,LN,TN,LE	FACT:Title|The Master of Pacts,The All Consuming Fire 	FACT:Symbol|A scroll on a red background	FACTSET:Animal|War Bull	FACTSET:Colors|Red					DESC: The god of contracts is known for his acts of violence against those who break the agreed upon rules.	FACTSET:Pantheon|Thrakdrak	DEITYWEAP:GreatAxe	ALIGN:LN
+
+#Overwrite Pathfinder Deities
+Abadar.FORGET

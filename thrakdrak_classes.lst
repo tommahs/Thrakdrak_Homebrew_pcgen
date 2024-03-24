@@ -1,0 +1,14 @@
+###
+#
+# version 1.0
+# Author: Tom van Hamersveld & Leon Schuijtvlot
+# Contact: Tommahs.van.hamersveld@gmail.com
+###
+
+#Skillpoints to four for non-INT classes
+CLASS:Cleric.MOD	STARTSKILLPTS:4	AUTO:LANG|Dagraenian
+CLASS:Fighter.MOD	BONUS:VAR|FighterSkillPoints|2	AUTO:LANG|Dagraenian
+CLASS:Sorcerer.MOD	STARTSKILLPTS:4	AUTO:LANG|Dagraenian
+CLASS:Paladin.MOD	STARTSKILLPTS:4	AUTO:LANG|Dagraenian
+CLASS:Ex-Paladin.MOD	STARTSKILLPTS:4	AUTO:LANG|Dagraenian
+
